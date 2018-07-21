@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Home"
+    tools:showIn="@layout/app_bar_home">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPage"
+        android:layout_width="match_parent"
+        android:layout_height="261dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="331dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"/>
+
+    <Button
+        android:id="@+id/info"
+        android:layout_width="160dp"
+        android:layout_height="146dp"
+        android:layout_alignLeft="@+id/request"
+        android:layout_alignStart="@+id/request"
+        android:layout_alignTop="@+id/video"
+        android:background="@drawable/b2"
+        android:text="Blood Donation   info."
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/video"
+        android:layout_width="160dp"
+        android:layout_height="146dp"
+        android:layout_alignLeft="@+id/emergency"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/emergency"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/b2"
+        android:text="Motivational Videos"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/request"
+        android:layout_width="160dp"
+        android:layout_height="146dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/emergency"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="24dp"
+        android:background="@drawable/b2"
+        android:text="Blood Request"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/emergency"
+        android:layout_width="160dp"
+        android:layout_height="146dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="179dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/b2"
+        android:text="Search          donar"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp" />
+
+
+</RelativeLayout>
